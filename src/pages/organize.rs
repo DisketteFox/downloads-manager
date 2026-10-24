@@ -2,7 +2,6 @@ use crate::util::downloads_dir;
 use crate::widgets::big_button;
 use eframe::egui;
 use std::fs;
-use eframe::epaint::Color32;
 
 #[derive(Default, Clone, Copy, PartialEq)]
 enum Mode {

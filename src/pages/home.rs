@@ -1,6 +1,6 @@
 use crate::widgets::big_button;
 use crate::Page;
-use eframe::egui::{self, Color32, RichText};
+use eframe::egui::{self, RichText};
 
 const MENU: [(&str, Page); 3] = [
     ("Download files", Page::Download),

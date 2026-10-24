@@ -13,7 +13,7 @@ pub fn big_button(ui: &mut egui::Ui, text: &str, fill: Option<Color32>) -> egui:
 }
 
 pub fn back_button(ui: &mut egui::Ui) -> bool {
-    let icon = egui::Image::new(egui::include_image!("../assets/arrow-left-short.svg"))
+    let icon = egui::Image::new(egui::include_image!("../assets/images/arrow-left-short.svg"))
         .fit_to_exact_size(egui::vec2(16.0, 16.0))
         .tint(ui.visuals().text_color());
     ui.add(egui::Button::image_and_text(icon, "Back")).clicked()
