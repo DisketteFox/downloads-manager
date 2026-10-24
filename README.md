@@ -13,12 +13,12 @@ A **Rust** program made with [egui](https://github.com/emilk/egui) that manages 
 ## Screenshots
 <div display="flex" align=center>
     <div>
-        <img src="./docs/images/scr1.png" height="320" style="margin-right: 20px;">
-        <img src="./docs/images/scr2.png" height="320">
+        <img src="./docs/images/scr1.png" height="320" style="margin-right: 5px;">
+        <img src="./docs/images/scr2.png" height="320" style="margin-right: 5px;">
     </div>
     <div>
-        <img src="./docs/images/scr3.png" height="320" style="margin-right: 20px;">
-        <img src="./docs/images/scr4.png" height="320">
+        <img src="./docs/images/scr3.png" height="320" style="margin-right: 5px;">
+        <img src="./docs/images/scr4.png" height="320" style="margin-right: 5px;">
     </div>
 </div>
 

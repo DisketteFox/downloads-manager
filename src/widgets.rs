@@ -18,14 +18,3 @@ pub fn back_button(ui: &mut egui::Ui) -> bool {
         .tint(ui.visuals().text_color());
     ui.add(egui::Button::image_and_text(icon, "Back")).clicked()
 }
-
-pub fn placeholder(ui: &mut egui::Ui, title: &str) {
-    ui.heading(title);
-    egui::Frame::group(ui.style())
-        .corner_radius(10.0)
-        .inner_margin(16.0)
-        .show(ui, |ui| {
-            ui.set_width(ui.available_width());
-            ui.label("Content goes here.");
-        });
-}

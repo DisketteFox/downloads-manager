@@ -26,6 +26,10 @@ pub fn ui(ui: &mut egui::Ui, current_page: &mut Page) {
 
     ui.add_space(8.0);
     ui.separator();
+    ui.horizontal(|ui| {
+        ui.label("Theme");
+        egui::widgets::global_theme_preference_buttons(ui);
+    });
     ui.label(RichText::new(format!("Version {}", env!("CARGO_PKG_VERSION"))).weak());
     ui.horizontal(|ui| {
         if ui.link("Codeberg").clicked() {
